@@ -40,7 +40,7 @@ export default function RootLayout({
         <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b">
           <div className="flex h-16 items-center justify-between max-w-6xl mx-auto px-6">
             <Link 
-              href={getBasePath('/')}
+              href="/"
               className="text-3xl font-bold bg-gradient-to-r from-orange-500 to-pink-500 text-transparent bg-clip-text hover:scale-105 transition-transform"
             >
               Li Xiaoyao&apos;s Web
